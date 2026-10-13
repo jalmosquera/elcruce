@@ -1,0 +1,102 @@
+
+# ==========================================
+# Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+build/
+dist/
+.eggs/
+
+# ==========================================
+# Virtual environments
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+
+# ==========================================
+# Environment variables / Secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+secrets/
+
+# ==========================================
+# uv / pip
+# ==========================================
+.pip-cache/
+.uv-cache/
+
+# IMPORTANT: Keep uv.lock tracked in Git
+
+# ==========================================
+# Testing / Coverage
+# ==========================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.tox/
+.nox/
+.hypothesis/
+
+# ==========================================
+# Ruff / Mypy / Pyright
+# ==========================================
+.ruff_cache/
+.mypy_cache/
+.pyright/
+.dmypy.json
+dmypy.json
+
+# ==========================================
+# FastAPI / Logs
+# ==========================================
+*.log
+logs/
+*.pid
+
+# ==========================================
+# SQLite (local development)
+# ==========================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==========================================
+# Docker
+# ==========================================
+docker-compose.override.yml
+*.tar
+
+# ==========================================
+# IDE / Editors
+# ==========================================
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.swp
+*.swo
+*~
+Session.vim
+.view/
+
+# ==========================================
+# OS
+# ==========================================
+.DS_Store
+Thumbs.db
+.Trash-*
+
